@@ -1,0 +1,10 @@
+.vscode/
+# Ignore executables
+*.exe
+
+# Ignore object files (optional but good)
+*.o
+*.out
+
+# Ignore VS Code
+.vscode/
