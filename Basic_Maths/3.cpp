@@ -1,4 +1,5 @@
-// Armstrong Number 
+// // Palindrome Number
+
 
 #include<iostream>
 

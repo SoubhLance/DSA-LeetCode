@@ -24,4 +24,4 @@ int main()
 
     cout << reverse(n);
     return 0;
-}
+} 
