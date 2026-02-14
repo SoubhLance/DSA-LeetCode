@@ -63,5 +63,5 @@ int main()
     }
     cout << "Term Frequency"<<endl;
 
-    term_calc(arr);   // ✅ MISSING LINE
+    term_calc(arr);   
 }
