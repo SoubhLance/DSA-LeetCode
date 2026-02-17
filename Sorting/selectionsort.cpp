@@ -1,4 +1,5 @@
-//Selection Sort [we select the smallest element and swap it]
+//Selection Sort 
+//[we select the smallest element and swap it]
 // The Time Complexity of selction sort is O(n^2) in all cases because we have to compare each element with every other element to find the minimum.
 
 #include <iostream>

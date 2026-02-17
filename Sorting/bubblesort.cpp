@@ -1,5 +1,6 @@
 //Bubble Sorting
 // Here in the bubble sort we push the maximium element to the end of the array in each iteration by adjacent swaps 
+//The Time Complexity of bubble sort is O(n^2) in all cases because we have to compare each element with every other element to find the maximum.
 
 #include<iostream>
 using namespace std;
