@@ -7,3 +7,40 @@
 #include<iostream>
 using namespace std;
 
+int CheckFibonacci(int n)
+{
+    if(n==0 || n==1)
+    {
+        return 1;
+    }
+    int a=0;
+    int b=1;
+    for(int i=2; i<=n; i++)
+    {
+        int sum=a+b;
+        if(sum==n)
+        {
+            return 1;
+        }
+        a=b;
+        b=sum;
+    }
+    return 0;
+}
+
+int main()
+{
+    int n;
+    cout<<"Enter the value of n: ";
+    cin>>n;
+
+    if (CheckFibonacci(n))
+    {
+        cout<<n<<" is a Fibonacci number"<<endl;
+    }
+    else
+    {
+        cout<<n<<" is not a Fibonacci number"<<endl;
+    }
+    return 0;
+}
