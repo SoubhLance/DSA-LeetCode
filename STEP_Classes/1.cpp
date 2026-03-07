@@ -2,6 +2,7 @@
 // the series progression is 1,3,7,13 
 
 #include <iostream>
+#include<ctime>
 using namespace std;
 
 int main()
@@ -42,5 +43,14 @@ int main()
     cout << "Total vehicles sold: " << vehicle_sold << endl;
     cout << "Total vehicles sold to retail customers: " << vehicle_sold_retail << endl;
     cout << "Total vehicles sold to corporate customers: " << vehicle_sold_corporate << endl;
+
+    //printing using the date and month constarints using the ctime function for apr,may, june, july, august, september
+    int start_month = 4; // April
+    int start_year = 2023; // 2023
+    int end_month = 3; // March
+    int end_year = 2023; // 2023
+
+
+    //calculate the total vehicle sold in the given date range july 15 to september 15
     return 0;
 }
