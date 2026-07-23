@@ -1,4 +1,4 @@
-// left rotate array by k places 
+// left rotate array by 1 place 
 
 #include<bits/stdc++.h>
 
